@@ -14,11 +14,15 @@ const AboutPage: React.FC = () => {
                             <div className="flex w-full flex-col gap-8 @[520px]:flex-row @[520px]:items-start @[520px]:justify-between">
                                 <div className="flex flex-col items-center gap-6 @[520px]:flex-row @[520px]:items-start">
                                     {/* Profile Picture */}
-                                    <div
-                                        className="bg-center bg-no-repeat aspect-square bg-cover rounded-xl min-h-32 w-32 flex-shrink-0"
-                                        style={{ backgroundImage: `url(${PERSONAL_DATA.profilePictureUrl})` }}
-                                        data-alt={`Professional headshot of ${PERSONAL_DATA.name}`}
-                                    ></div>
+                                    <div className="relative w-32 h-32 flex-shrink-0">
+                                        <div
+                                            className="bg-center bg-no-repeat bg-cover rounded-full w-full h-full border-4 border-white/20 dark:border-white/10 shadow-lg"
+                                            style={{ backgroundImage: `url(${PERSONAL_DATA.profilePictureUrl})` }}
+                                            data-alt={`Professional headshot of ${PERSONAL_DATA.name}`}
+                                        ></div>
+                                        {/* Inner Ring */}
+                                        <div className="absolute inset-0 rounded-full ring-1 ring-inset ring-black/10 dark:ring-white/10"></div>
+                                    </div>
                                     {/* About Text (Using real data) */}
                                     <div className="flex flex-col text-center @[520px]:text-left">
                                         <h1 className="text-black dark:text-white text-[28px] font-bold leading-tight tracking-[-0.015em]">About Me</h1>

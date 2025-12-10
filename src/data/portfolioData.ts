@@ -101,5 +101,5 @@ export const STRENGTHS_DATA = [
     { title: "Agile Methodologies", icon: "cycle" },
 ];
 
-export const PROJECT_CATEGORIES = ["All", "Web Development", "Mobile", "Data Science", "DevOps"];
+export const PROJECT_CATEGORIES = ["All", "Web Development", "Mobile", "DevOps"];
 export const SKILL_CATEGORIES = ["All", "Languages", "Frameworks & Libraries", "Databases", "Tools & Platforms"];
