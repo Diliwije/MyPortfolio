@@ -1,46 +1,71 @@
-# Getting Started with Create React App
+# Auction App Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A comprehensive, real-time auction platform built with modern web technologies. This application allows users to bid on items in real-time, manage auctions, and process payments securely.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- **Real-Time Bidding**: Experience live updates on bids immediately using **SignalR**.
+- **User Authentication**: Secure Login and Registration functionality for personalized user experiences.
+- **Auction Management**: 
+  - Browse available auctions in `AuctionList`.
+  - Create new auctions via `AddAuction`.
+- **Payment Integration**: Seamless payment processing with **PayPal**.
+- **Admin Dashboard**: A dedicated dashboard for administrators to manage the platform (`AdminDashboard`).
+- **Responsive Design**: Built to work across devices.
 
-### `npm start`
+## 🛠️ Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This project leverages a robust stack of libraries and tools:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Core Framework**: [React](https://react.dev/) (v19)
+- **Build Tool**: [Vite](https://vitejs.dev/)
+- **Routing**: [React Router DOM](https://reactrouter.com/) (v7)
+- **State & Data Fetching**: [Axios](https://axios-http.com/)
+- **Real-Time Communication**: [@microsoft/signalr](https://www.npmjs.com/package/@microsoft/signalr)
+- **Payments**: [@paypal/react-paypal-js](https://www.npmjs.com/package/@paypal/react-paypal-js)
+- **Linting**: ESLint
 
-### `npm test`
+## 📦 Installation & Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Follow these steps to set up the project locally:
 
-### `npm run build`
+1.  **Clone the repository** (if you haven't already):
+    ```bash
+    git clone <repository-url>
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2.  **Navigate to the project directory**:
+    ```bash
+    cd d:/Projects/Auction-App/Auction-App-main/Front-end/auction-frontend
+    ```
+    *(Adjust the path if you simply opened the folder directly)*
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4.  **Run the development server**:
+    ```bash
+    npm run dev
+    ```
 
-### `npm run eject`
+    The app should now be running at `http://localhost:5173` (or the port shown in your terminal).
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 📜 Available Scripts
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- `npm run dev`: Starts the development server with Hot Module Replacement (HMR).
+- `npm run build`: Builds the app for production.
+- `npm run lint`: Runs ESLint to check for code quality issues.
+- `npm run preview`: Locally previews the production build.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 📂 Project Structure
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- `src/pages`: Contains main view components (`HomePage`, `Login`, `Register`, `AuctionList`, `AddAuction`, `AdminDashboard`, `PaymentPage`).
+- `src/components`: Reusable UI components.
+- `src/services`: API services and SignalR connection logic.
+- `src/assets`: Static assets like images and icons.
 
-## Learn More
+## 🤝 Contributing
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contributions are welcome! Please feel free to submit a Pull Request.
