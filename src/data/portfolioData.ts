@@ -7,7 +7,7 @@ export const PERSONAL_DATA = {
     email: "dilshanwijerathna426@gmail.com",
     linkedin: "https://www.linkedin.com/in/dilshan-wijerathna",
     github: "https://github.com/Diliwije",
-    resumeLink: "#", // Add your actual resume link here
+    resumeLink: "https://drive.google.com/file/d/1jFIXP9QKo4H9M7cQM_roX_lrQUJ8rx0t/view?usp=drive_link", // Add your actual resume link here
     profilePictureUrl: "/images/profile.jpg",
     university: "NSBM Green University",
     graduationDate: "December 2027",
@@ -19,13 +19,13 @@ export const PERSONAL_DATA = {
 export const PROJECTS_DATA = [
     {
         id: 1,
-        title: "Nexus - Collaborative Editor",
-        description: "A web-based collaborative code editor built with React, Node.js, and WebSockets to enable seamless real-time pair programming.",
-        category: "Web Development",
-        techStack: ["React", "Node.js", "WebSockets"],
-        liveUrl: "#",
-        githubUrl: "#",
-        imagePlaceholder: "https://via.placeholder.com/600x400/191C2D/FFFFFF?text=Project+1+Screenshot"
+        title: "BiddingBoom - Real-Time Auction Platform",
+        description: "A secure, high-performance auction application featuring real-time bidding and seamless payments. Implemented JWT-based authentication for secure user sessions and integrated PayPal Sandbox for safe, simulated financial transactions.",
+        category: "Full-Stack Development",
+        techStack: [".NET 9", "React 19", "SignalR", "JWT Authentication", "PayPal SDK", "SQL Server"],
+        liveUrl: "https://youtu.be/S1hT_rjuOng",
+        githubUrl: "https://github.com/Diliwije/Auction-App",
+        imagePlaceholder: "/images/bidding-boom.png"
     },
     {
         id: 2,

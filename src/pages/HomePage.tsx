@@ -176,7 +176,7 @@ const HomePage: React.FC = () => {
                         </h2>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4">
                             {featuredProjects.map((project, index) => (
-                                <div key={project.id} className="flex flex-col gap-3 pb-3 bg-background-light dark:bg-[#191C2D] p-4 rounded-lg border border-gray-200/20 dark:border-white/10 h-full">
+                                <div key={project.id} className="flex flex-col gap-3 pb-3 bg-background-light dark:bg-[#191C2D] p-4 rounded-lg border border-gray-400/50 dark:border-white/10 h-full">
                                     <div className="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-lg" style={{ backgroundImage: `url(${project.imagePlaceholder})` }} />
                                     <div>
                                         <p className="text-gray-900 dark:text-white text-base font-medium leading-normal">{project.title}</p>
