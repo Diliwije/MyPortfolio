@@ -11,7 +11,7 @@ export const PERSONAL_DATA = {
     profilePictureUrl: "/images/profile.jpg",
     university: "NSBM Green University",
     graduationDate: "December 2027",
-    keyAchievement: "Top Performer in University Hackathon 2024", // Changed dummy value for realism
+    keyAchievement: "Selected Member of the IEEE Day 2025 Design Team",
     aboutMe: "I'm a passionate software engineering student at NSBM Green University, driven by a fascination for building elegant and impactful solutions. My journey in tech is fueled by a desire to tackle complex challenges, whether it's developing full-stack applications or exploring the potential of AI. I am currently seeking internship opportunities where I can contribute to innovative projects and continue to grow my skills."
 };
 
