@@ -64,7 +64,7 @@ const AboutPage: React.FC = () => {
                             </div>
                             <div className="flex flex-col gap-1">
                                 <h3 className="text-black dark:text-white text-base font-bold leading-tight">Major</h3>
-                                <p className="text-zinc-600 dark:text-[#9da1b9] text-sm font-normal leading-normal">B.S. Software Engineering</p>
+                                <p className="text-zinc-600 dark:text-[#9da1b9] text-sm font-normal leading-normal">B.S.C (hons) Software Engineering</p>
                             </div>
                         </ScrollReveal>
 
