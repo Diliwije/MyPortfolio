@@ -10,6 +10,7 @@ interface Project {
     liveUrl: string;
     githubUrl: string;
     imagePlaceholder: string;
+    specialNote?: string;
 }
 
 const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
@@ -21,7 +22,15 @@ const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
                 data-alt={`Screenshot of ${project.title} application`}
             ></div>
             <div className="flex flex-col gap-3 flex-grow">
-                <p className="text-gray-900 dark:text-white text-base font-bold leading-normal">{project.title}</p>
+                <div className="flex flex-col gap-1">
+                    <p className="text-gray-900 dark:text-white text-base font-bold leading-normal">{project.title}</p>
+                    {project.specialNote && (
+                        <p className="text-xs font-semibold text-red-500 dark:text-red-400 italic">
+                            {project.specialNote}
+                        </p>
+                    )}
+                </div>
+
                 <p className="text-gray-600 dark:text-[#9da1b9] text-sm font-normal leading-normal">{project.description}</p>
                 <div className="flex flex-wrap gap-2 mt-auto pt-2">
                     {project.techStack.map(tech => (

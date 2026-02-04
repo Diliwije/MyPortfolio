@@ -7,7 +7,7 @@ export const PERSONAL_DATA = {
     email: "dilshanwijerathna426@gmail.com",
     linkedin: "https://www.linkedin.com/in/dilshan-wijerathna",
     github: "https://github.com/Diliwije",
-    resumeLink: "https://drive.google.com/file/d/1jFIXP9QKo4H9M7cQM_roX_lrQUJ8rx0t/view?usp=drive_link", // Add your actual resume link here
+    resumeLink: "https://drive.google.com/file/d/1s7-6djONVWaRmxQ0nkCighqtU_3UZtBk/view?usp=sharing", // Add your actual resume link here
     profilePictureUrl: "/images/profile.jpg",
     university: "NSBM Green University",
     graduationDate: "December 2027",
@@ -29,44 +29,45 @@ export const PROJECTS_DATA = [
     },
     {
         id: 2,
-        title: "Project Phoenix - Mobile Task Manager",
-        description: "A cross-platform mobile app for task management built with Flutter and Firebase.",
-        category: "Mobile",
-        techStack: ["Flutter", "Firebase", "Dart"],
+        title: "Hotel Management System - Microservices [Back-End]",
+        specialNote: "[This Repo(Organization) is Private]",
+        description: "A highly scalable hotel management platform built using a microservices architecture, featuring centralized authentication with Keycloak and automated CI/CD deployment on AWS.",
+        category: "Full-stack / Back-end",
+        techStack: ["Java", "Spring Boot", "Keycloak", "Spring Cloud (Eureka)", "MySQL", "AWS", "CI/CD Pipeline"],
         liveUrl: "#",
         githubUrl: "#",
-        imagePlaceholder: "https://via.placeholder.com/600x400/191C2D/FFFFFF?text=Project+2+Screenshot"
+        imagePlaceholder: "/images/Eureka-Server.png"
     },
     {
         id: 3,
-        title: "DataViz Dashboard",
-        description: "An interactive data visualization dashboard for analyzing market trends using D3.js and Python.",
-        category: "Data Science",
-        techStack: ["D3.js", "Python", "Flask"],
+        title: "DevOps POS System Backend",
+        description: "A robust Point of Sale backend featuring secure JWT authentication, inventory tracking, and automated order processing built with a focus on DevOps best practices.",
+        category: "Backend Development",
+        techStack: ["Node.js", "Express.js", "MongoDB", "JWT", "Bcrypt"],
         liveUrl: "#",
-        githubUrl: "#",
-        imagePlaceholder: "https://via.placeholder.com/600x400/191C2D/FFFFFF?text=Project+3+Screenshot"
+        githubUrl: "https://github.com/Diliwije/devops-pos-system",
+        imagePlaceholder: "/images/postman.png"
     },
-    {
-        id: 4,
-        title: "CloudStream - CI/CD Pipeline",
-        description: "A fully automated CI/CD pipeline for a microservices architecture using Docker and AWS.",
-        category: "DevOps",
-        techStack: ["AWS", "Docker", "Jenkins"],
-        liveUrl: "",
-        githubUrl: "#",
-        imagePlaceholder: "https://via.placeholder.com/600x400/191C2D/FFFFFF?text=Project+4+Screenshot"
-    },
-    {
-        id: 5,
-        title: "AlgoTrader Bot",
-        description: "A cryptocurrency trading bot implementing various algorithmic strategies using Python.",
-        category: "Data Science",
-        techStack: ["Python", "REST APIs"],
-        liveUrl: "",
-        githubUrl: "#",
-        imagePlaceholder: "https://via.placeholder.com/600x400/191C2D/FFFFFF?text=Project+5+Screenshot"
-    },
+    // {
+    //     id: 4,
+    //     title: "CloudStream - CI/CD Pipeline",
+    //     description: "A fully automated CI/CD pipeline for a microservices architecture using Docker and AWS.",
+    //     category: "DevOps",
+    //     techStack: ["AWS", "Docker", "Jenkins"],
+    //     liveUrl: "",
+    //     githubUrl: "#",
+    //     imagePlaceholder: "https://via.placeholder.com/600x400/191C2D/FFFFFF?text=Project+4+Screenshot"
+    // },
+    // {
+    //     id: 5,
+    //     title: "AlgoTrader Bot",
+    //     description: "A cryptocurrency trading bot implementing various algorithmic strategies using Python.",
+    //     category: "Data Science",
+    //     techStack: ["Python", "REST APIs"],
+    //     liveUrl: "",
+    //     githubUrl: "#",
+    //     imagePlaceholder: "https://via.placeholder.com/600x400/191C2D/FFFFFF?text=Project+5+Screenshot"
+    // },
 ];
 
 // --- Skills Data ---
