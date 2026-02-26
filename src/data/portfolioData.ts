@@ -72,24 +72,25 @@ export const PROJECTS_DATA = [
 
 // --- Skills Data ---
 export const SKILLS_DATA = [
-    { name: "Python", category: "Languages", icon: "python", progress: 70 },
+    
     { name: "Java", category: "Languages", icon: "java", progress: 90 },
-    { name: "C++", category: "Languages", icon: "c++", progress: 70 },
-    { name: "JavaScript", category: "Languages", icon: "js", progress: 70 },
+    { name: "C#", category: "Languages", icon: "c#", progress: 70 },
+    { name: "Dart", category: "Languages", icon: "dart", progress: 70 },
+    { name: "JavaScript", category: "Languages", icon: "js", progress: 95 },
     { name: "HTML/CSS", category: "Languages", icon: "html5", progress: 100 }, // Added for 100% progress
 
     { name: "React", category: "Frameworks & Libraries", icon: "react", progress: 70 },
+    {name: "Angular", category: "Frameworks & Libraries", icon: "angular", progress: 90 },
     { name: "Node.js", category: "Frameworks & Libraries", icon: "node-js", progress: 70 },
-    { name: "Spring Boot", category: "Frameworks & Libraries", icon: "java", progress: 90 }, // Linked to 90%
-    { name: "Django", category: "Frameworks & Libraries", icon: "django", progress: 70 },
+    { name: "Spring Boot", category: "Frameworks & Libraries", icon: "spring", progress: 90 }, // Linked to 90%
     { name: "Tailwind CSS", category: "Frameworks & Libraries", icon: "tailwind", progress: 100 }, // Linked to 100%
 
-    { name: "SQL", category: "Databases", icon: "database", progress: 70 },
-    { name: "MongoDB", category: "Databases", icon: "database", progress: 70 },
+    { name: "SQL", category: "Databases", icon: "database", progress: 90 },
+    { name: "MongoDB", category: "Databases", icon: "database", progress: 90 },
     { name: "PostgreSQL", category: "Databases", icon: "database", progress: 70 },
     { name: "Redis", category: "Databases", icon: "database", progress: 70 },
 
-    { name: "Git", category: "Tools & Platforms", icon: "git", progress: 70 },
+    { name: "Git", category: "Tools & Platforms", icon: "git", progress: 90 },
     { name: "Docker", category: "Tools & Platforms", icon: "docker", progress: 70 },
     { name: "AWS", category: "Tools & Platforms", icon: "aws", progress: 70 },
     { name: "Jenkins", category: "Tools & Platforms", icon: "jenkins", progress: 70 },
