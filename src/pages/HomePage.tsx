@@ -75,7 +75,7 @@ const HeroSection: React.FC = () => {
                             {/* Main Title (Using Dilshan's details) */}
                             <h1> className="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tighter text-gray-900 dark:text-white">
     Meet {PERSONAL_DATA.name.split(' ')[0]},<br />
-    An Aspiring <span className="whitespace-nowrap">Software Engineer.</span>
+    An Aspiring <span className="whitespace-nowrap">Software Engineer</span>
 </h1>
 
                             {/* Download Resume Button */}
