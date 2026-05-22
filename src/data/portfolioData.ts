@@ -48,16 +48,16 @@ export const PROJECTS_DATA = [
         githubUrl: "https://github.com/Diliwije/devops-pos-system",
         imagePlaceholder: "/images/postman.png"
     },
-    // {
-    //     id: 4,
-    //     title: "CloudStream - CI/CD Pipeline",
-    //     description: "A fully automated CI/CD pipeline for a microservices architecture using Docker and AWS.",
-    //     category: "DevOps",
-    //     techStack: ["AWS", "Docker", "Jenkins"],
-    //     liveUrl: "",
-    //     githubUrl: "#",
-    //     imagePlaceholder: "https://via.placeholder.com/600x400/191C2D/FFFFFF?text=Project+4+Screenshot"
-    // },
+    {
+        id: 4,
+        title: "𝐀 𝐅𝐮𝐥𝐥𝐲 𝐃𝐨𝐜𝐤𝐞𝐫𝐢𝐳𝐞𝐝 𝐅𝐮𝐥𝐥-𝐒𝐭𝐚𝐜𝐤 𝐏𝐎𝐒 𝐒𝐲𝐬𝐭𝐞𝐦!",
+        description: "The core focus of this project was not on building an extensive feature list, but rather on mastering the deployment lifecycle. I prioritized building a reliable, containerized environment that ensures the application runs consistently across any machine. ",
+        category: "Backend Development,Frontend Development, DevOps",
+        techStack: ["Docker", "Angular", "MongoDB", "JWT", "NodeJs"],
+        liveUrl: "#",
+        githubUrl: "https://github.com/Diliwije/pos-system-Dokrizing",
+        imagePlaceholder: "/images/DevOps-POS.png"
+     },
     // {
     //     id: 5,
     //     title: "AlgoTrader Bot",
