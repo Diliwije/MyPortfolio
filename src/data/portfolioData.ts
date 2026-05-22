@@ -58,16 +58,24 @@ export const PROJECTS_DATA = [
         githubUrl: "https://github.com/Diliwije/pos-system-Dokrizing",
         imagePlaceholder: "/images/DevOps-POS.png"
      },
-    // {
-    //     id: 5,
-    //     title: "AlgoTrader Bot",
-    //     description: "A cryptocurrency trading bot implementing various algorithmic strategies using Python.",
-    //     category: "Data Science",
-    //     techStack: ["Python", "REST APIs"],
-    //     liveUrl: "",
-    //     githubUrl: "#",
-    //     imagePlaceholder: "https://via.placeholder.com/600x400/191C2D/FFFFFF?text=Project+5+Screenshot"
-    // },
+   {
+    id: 5,
+    title: "CleanPulse",
+    description: "CleanPulse is a verified waste reporting and fast resolution tracking platform designed to support SDG 11.6 (Sustainable Cities and Communities). It empowers citizens to report environmental hazards like waste, pollution, and infrastructure issues, which are then verified, prioritized, and tracked for resolution.",
+    category: "FullStack-Project",
+    techStack: [
+        "Next.js", 
+        "TypeScript", 
+        "Tailwind CSS", 
+        "Firebase", 
+        "AWS S3", 
+        "Leaflet",
+        "Gemini API"
+    ],
+    liveUrl: "",
+    githubUrl: "#",
+    imagePlaceholder: "/images/CleanPulse.png.png"
+}
 ];
 
 // --- Skills Data ---
