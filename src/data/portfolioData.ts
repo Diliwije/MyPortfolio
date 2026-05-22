@@ -44,7 +44,7 @@ export const PROJECTS_DATA = [
         description: "A robust Point of Sale backend featuring secure JWT authentication, inventory tracking, and automated order processing built with a focus on DevOps best practices.",
         category: "Backend Development",
         techStack: ["Node.js", "Express.js", "MongoDB", "JWT", "Bcrypt"],
-        liveUrl: "#",
+        liveUrl: "",
         githubUrl: "https://github.com/Diliwije/devops-pos-system",
         imagePlaceholder: "/images/postman.png"
     },
@@ -54,7 +54,7 @@ export const PROJECTS_DATA = [
         description: "The core focus of this project was not on building an extensive feature list, but rather on mastering the deployment lifecycle. I prioritized building a reliable, containerized environment that ensures the application runs consistently across any machine. ",
         category: "Backend Development,Frontend Development, DevOps",
         techStack: ["Docker", "Angular", "MongoDB", "JWT", "NodeJs"],
-        liveUrl: "#",
+        liveUrl: "https://youtu.be/O9oCKu-5fQ4",
         githubUrl: "https://github.com/Diliwije/pos-system-Dokrizing",
         imagePlaceholder: "/images/DevOps-POS.png"
      },
@@ -72,8 +72,8 @@ export const PROJECTS_DATA = [
         "Leaflet",
         "Gemini API"
     ],
-    liveUrl: "",
-    githubUrl: "#",
+    liveUrl: "https://youtu.be/mqDrcuCcSVw",
+    githubUrl: "https://github.com/Danindu05/cleanpulse",
     imagePlaceholder: "/images/CleanPulse.png.png"
 }
 ];
