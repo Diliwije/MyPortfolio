@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio website! This project is a modern, responsive, and visually engaging portfolio designed to showcase my software engineering skills, technical expertise, and personal projects.
 
-🌐 **Live Demo:** [https://dilshan-my-portfolio.netlify.app/](https://dilshan-my-portfolio.netlify.app/)
+🌐 **Live Demo:** [https://dilshan-my-portfolio.netlify.app/](https://wijerathna.me/)
 
 ---
 
