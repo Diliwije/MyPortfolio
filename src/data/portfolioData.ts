@@ -129,13 +129,15 @@ export const CERTIFICATES: Certificate[] = [
   {
     title: "Advanced React & TypeScript Certification",
     issuer: "Coursera / Meta",
+    instructor: "Meta Staff", // <-- මේ පේළිය එකතු කරන්න
     date: "Dec 2025",
-    image: "/images/CleanPulse.png" // Replace with your actual certificate image name
+    image: "/images/CleanPulse.png"
   },
   {
     title: "Full-Stack Software Engineering",
     issuer: "Udemy",
+    instructor: "Udemy Instructor", // <-- මේ පේළියත් එකතු කරන්න
     date: "May 2025",
-    image: "/images/DevOps-POS.png" // Replace with your actual certificate image name
+    image: "/images/DevOps-POS.png"
   }
 ];
