@@ -54,13 +54,15 @@ const Certificates: React.FC = () => {
                                     </div>
                                     <div className="pt-3 border-t border-black/5 dark:border-white/5 flex items-center justify-between text-xs text-black/40 dark:text-[#9da1b9]">
                                         <span>Issued: {cert.date}</span>
-                                        <span className="text-primary hover:underline cursor-pointer font-semibold">
-                                                 <a 
+                                         <a 
                                                   href={cert.credentialUrl} 
                                                   target="_blank" 
                                                   rel="noopener noreferrer" 
                                                   className="text-primary hover:underline cursor-pointer font-semibold"
                                                 >
+                                        
+                                        <span className="text-primary hover:underline cursor-pointer font-semibold">
+                                                
                                             View Fullscreen
                                         </span>
                                     </div>
