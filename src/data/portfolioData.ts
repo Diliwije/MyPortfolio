@@ -127,6 +127,7 @@ export interface Certificate {
   instructor:string;  
   date: string;
   image: string; 
+  credentialUrl:string;  
 }
 
 export const CERTIFICATES: Certificate[] = [
@@ -135,6 +136,8 @@ export const CERTIFICATES: Certificate[] = [
   issuer: "Udemy",
   instructor: "Kioomars Jonood, Samaneh Mazidi Sharaf Abadi",
   date: "Sept 2025",
-  image: "/images/csharp-mastering.png" 
-}
+  image: "https://lh3.googleusercontent.com/d/1-fbAyqSDyAzMUQO8jNnyLdso1RGAxp7M",
+  credentialUrl: "https://drive.google.com/file/d/1-fbAyqSDyAzMUQO8jNnyLdso1RGAxp7M/view?usp=sharing"
+},
+
 ];
