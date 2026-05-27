@@ -42,6 +42,9 @@ const Header: React.FC<HeaderProps> = ({ isDark, toggleDark }) => {
                         <NavLink to="/skills" onClick={closeMenu} className={({ isActive }) => `text-sm font-medium leading-normal transition-colors ${isActive ? 'text-primary dark:text-primary font-bold' : 'text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary'}`}>
                             Skills
                         </NavLink>
+                        <NavLink to="/certificates" onClick={closeMenu} className={({ isActive }) => `text-sm font-medium leading-normal transition-colors ${isActive ? 'text-primary dark:text-primary font-bold' : 'text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary'}`}>
+                            Certifications
+                        </NavLink>
                         <NavLink to="/contact" onClick={closeMenu} className={({ isActive }) => `text-sm font-medium leading-normal transition-colors ${isActive ? 'text-primary dark:text-primary font-bold' : 'text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary'}`}>
                             Contact
                         </NavLink>
@@ -85,6 +88,9 @@ const Header: React.FC<HeaderProps> = ({ isDark, toggleDark }) => {
                         </NavLink>
                         <NavLink to="/skills" onClick={closeMenu} className={({ isActive }) => `text-lg px-2 py-1 transition-colors ${isActive ? 'text-primary font-bold' : 'text-gray-700 dark:text-gray-200 hover:text-primary dark:hover:text-primary'}`}>
                             Skills
+                        </NavLink>
+                        <NavLink to="/certificates" onClick={closeMenu} className={({ isActive }) => `text-lg px-2 py-1 transition-colors ${isActive ? 'text-primary font-bold' : 'text-gray-700 dark:text-gray-200 hover:text-primary dark:hover:text-primary'}`}>
+                            Certifications
                         </NavLink>
                         <NavLink to="/contact" onClick={closeMenu} className={({ isActive }) => `text-lg px-2 py-1 transition-colors ${isActive ? 'text-primary font-bold' : 'text-gray-700 dark:text-gray-200 hover:text-primary dark:hover:text-primary'}`}>
                             Contact
