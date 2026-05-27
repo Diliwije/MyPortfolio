@@ -8,6 +8,7 @@ import ProjectsPage from './pages/ProjectsPage';
 import AboutPage from './pages/AboutPage';
 import SkillsPage from './pages/SkillsPage';
 import ContactPage from './pages/ContactPage';
+import Certificates from './pages/Certificates'; // Certificates page එක import කිරීම
 
 const App: React.FC = () => {
   // Dark Mode Logic
@@ -38,6 +39,7 @@ const App: React.FC = () => {
             <Route path="/about" element={<AboutPage />} />
             <Route path="/skills" element={<SkillsPage />} />
             <Route path="/contact" element={<ContactPage />} />
+            <Route path="/certificates" element={<Certificates />} /> {/* නව Route එක සම්බන්ධ කිරීම */}
           </Routes>
         </main>
         <Footer />
