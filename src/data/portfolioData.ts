@@ -79,29 +79,33 @@ export const PROJECTS_DATA = [
 ];
 
 // --- Skills Data ---
+// --- Skills Data ---
 export const SKILLS_DATA = [
-    
-    { name: "Java", category: "Languages", icon: "java", progress: 90 },
-    { name: "C#", category: "Languages", icon: "c#", progress: 70 },
-    { name: "Dart", category: "Languages", icon: "dart", progress: 70 },
-    { name: "JavaScript", category: "Languages", icon: "js", progress: 95 },
-    { name: "HTML/CSS", category: "Languages", icon: "html5", progress: 100 }, // Added for 100% progress
+    // --- Languages ---
+    { name: "Java", category: "Languages", icon: "devicon-java-plain-wordmark colored", progress: 90 },
+    { name: "C#", category: "Languages", icon: "devicon-csharp-plain colored", progress: 70 },
+    { name: "Dart", category: "Languages", icon: "devicon-dart-plain colored", progress: 70 },
+    { name: "JavaScript", category: "Languages", icon: "devicon-javascript-plain colored", progress: 95 },
+    { name: "HTML/CSS", category: "Languages", icon: "devicon-html5-plain colored", progress: 100 },
 
-    { name: "React", category: "Frameworks & Libraries", icon: "react", progress: 70 },
-    {name: "Angular", category: "Frameworks & Libraries", icon: "angular", progress: 90 },
-    { name: "Node.js", category: "Frameworks & Libraries", icon: "node-js", progress: 70 },
-    { name: "Spring Boot", category: "Frameworks & Libraries", icon: "spring", progress: 90 }, // Linked to 90%
-    { name: "Tailwind CSS", category: "Frameworks & Libraries", icon: "tailwind", progress: 100 }, // Linked to 100%
+    // --- Frameworks & Libraries ---
+    { name: "React", category: "Frameworks & Libraries", icon: "devicon-react-original colored", progress: 70 },
+    { name: "Angular", category: "Frameworks & Libraries", icon: "devicon-angular-plain colored", progress: 90 },
+    { name: "Node.js", category: "Frameworks & Libraries", icon: "devicon-nodejs-plain colored", progress: 70 },
+    { name: "Spring Boot", category: "Frameworks & Libraries", icon: "devicon-spring-original colored", progress: 90 },
+    { name: "Tailwind CSS", category: "Frameworks & Libraries", icon: "devicon-tailwindcss-original colored", progress: 100 },
 
-    { name: "SQL", category: "Databases", icon: "database", progress: 90 },
-    { name: "MongoDB", category: "Databases", icon: "database", progress: 90 },
-    { name: "PostgreSQL", category: "Databases", icon: "database", progress: 70 },
-    { name: "Redis", category: "Databases", icon: "database", progress: 70 },
+    // --- Databases ---
+    { name: "SQL", category: "Databases", icon: "devicon-azuresqldatabase-plain colored", progress: 90 },
+    { name: "MongoDB", category: "Databases", icon: "devicon-mongodb-plain colored", progress: 90 },
+    { name: "PostgreSQL", category: "Databases", icon: "devicon-postgresql-plain colored", progress: 70 },
+    { name: "Redis", category: "Databases", icon: "devicon-redis-plain colored", progress: 70 },
 
-    { name: "Git", category: "Tools & Platforms", icon: "git", progress: 90 },
-    { name: "Docker", category: "Tools & Platforms", icon: "docker", progress: 70 },
-    { name: "AWS", category: "Tools & Platforms", icon: "aws", progress: 70 },
-    { name: "Jenkins", category: "Tools & Platforms", icon: "jenkins", progress: 70 },
+    // --- Tools & Platforms ---
+    { name: "Git", category: "Tools & Platforms", icon: "devicon-git-plain colored", progress: 90 },
+    { name: "Docker", category: "Tools & Platforms", icon: "devicon-docker-plain colored", progress: 70 },
+    { name: "AWS", category: "Tools & Platforms", icon: "devicon-amazonwebservices-plain-wordmark colored", progress: 70 },
+    { name: "Jenkins", category: "Tools & Platforms", icon: "devicon-jenkins-line colored", progress: 70 },
 ];
 
 export const STRENGTHS_DATA = [
@@ -129,14 +133,14 @@ export const CERTIFICATES: Certificate[] = [
   {
     title: "Advanced React & TypeScript Certification",
     issuer: "Coursera / Meta",
-    instructor: "Meta Staff", // <-- මේ පේළිය එකතු කරන්න
+    instructor: "Meta Staff", 
     date: "Dec 2025",
     image: "/images/CleanPulse.png"
   },
   {
     title: "Full-Stack Software Engineering",
     issuer: "Udemy",
-    instructor: "Udemy Instructor", // <-- මේ පේළියත් එකතු කරන්න
+    instructor: "Udemy Instructor",
     date: "May 2025",
     image: "/images/DevOps-POS.png"
   }
