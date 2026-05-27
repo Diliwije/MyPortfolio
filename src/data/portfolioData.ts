@@ -113,3 +113,29 @@ export const STRENGTHS_DATA = [
 
 export const PROJECT_CATEGORIES = ["All", "Web Development", "Mobile", "DevOps"];
 export const SKILL_CATEGORIES = ["All", "Languages", "Frameworks & Libraries", "Databases", "Tools & Platforms"];
+
+
+
+
+export interface Certificate {
+  title: string;
+  issuer: string;
+  instructor:string;  
+  date: string;
+  image: string; 
+}
+
+export const CERTIFICATES: Certificate[] = [
+  {
+    title: "Advanced React & TypeScript Certification",
+    issuer: "Coursera / Meta",
+    date: "Dec 2025",
+    image: "/images/CleanPulse.png" // Replace with your actual certificate image name
+  },
+  {
+    title: "Full-Stack Software Engineering",
+    issuer: "Udemy",
+    date: "May 2025",
+    image: "/images/DevOps-POS.png" // Replace with your actual certificate image name
+  }
+];
