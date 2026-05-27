@@ -130,18 +130,11 @@ export interface Certificate {
 }
 
 export const CERTIFICATES: Certificate[] = [
-  {
-    title: "Advanced React & TypeScript Certification",
-    issuer: "Coursera / Meta",
-    instructor: "Meta Staff", 
-    date: "Dec 2025",
-    image: "/images/CleanPulse.png"
-  },
-  {
-    title: "Full-Stack Software Engineering",
-    issuer: "Udemy",
-    instructor: "Udemy Instructor",
-    date: "May 2025",
-    image: "/images/DevOps-POS.png"
-  }
+{
+  title: "C# Mastering Course For Professionals",
+  issuer: "Udemy",
+  instructor: "Kioomars Jonood, Samaneh Mazidi Sharaf Abadi",
+  date: "Sept 2025",
+  image: "/images/csharp-mastering.png" 
+}
 ];
