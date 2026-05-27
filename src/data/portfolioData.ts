@@ -131,13 +131,21 @@ export interface Certificate {
 }
 
 export const CERTIFICATES: Certificate[] = [
-{
-  title: "C# Mastering Course For Professionals",
-  issuer: "Udemy",
-  instructor: "Kioomars Jonood, Samaneh Mazidi Sharaf Abadi",
-  date: "Sept 2025",
-  image: "https://lh3.googleusercontent.com/d/1-fbAyqSDyAzMUQO8jNnyLdso1RGAxp7M",
-  credentialUrl: "https://drive.google.com/file/d/1-fbAyqSDyAzMUQO8jNnyLdso1RGAxp7M/view?usp=sharing"
-},
-
+  {
+    title: "The Ultimate SQL Bootcamp : Go From Zero to Hero",
+    issuer: "Udemy",
+    instructor: "Sara Academy",
+    date: "Dec 2025",
+    image: "/images/sql-bootcamp.png", // public/images එකට දාපු පින්තූරයේ නම
+    credentialUrl: "https://drive.google.com/file/d/1CdNmcP3JA5GvT4xBqIxBTQ5HUw0CfOh2/view?usp=sharing"
+  },
+  {
+    title: "C# Mastering Course For Professionals",
+    issuer: "Udemy",
+    instructor: "Kioomars Jonood, Samaneh Mazidi Sharaf Abadi",
+    date: "Sept 2025",
+    image: "/images/csharp-mastering.png", // public/images එකට දාපු පින්තූරයේ නම
+    credentialUrl: "https://drive.google.com/file/d/1-fbAyqSDyAzMUQO8jNnyLdso1RGAxp7M/view?usp=sharing"
+  },
+ 
 ];
