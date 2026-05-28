@@ -155,5 +155,53 @@ export const CERTIFICATES: Certificate[] = [
     image: "/images/java-crash-course.jpg",
     credentialUrl: "https://drive.google.com/file/d/1ymQM261fmrLvEZ8WScxNfLoDf-uBj7XL/view?usp=sharing"
   },
+    {
+    title: "Docker MasterClass : Docker - Compose - SWARM - DevOps",
+    issuer: "Udemy",
+    instructor: "TechLynk Selenium | DevOps | GenAI | Cloud",
+    date: "May 2026",
+    image: "/images/docker-masterclass.jpg", 
+    credentialUrl: "https://drive.google.com/file/d/184CQexN1IsNSQPqY3KyppgOgJ6wJmYrj/view?usp=sharing"
+  },
+    {
+    title: "React - Complete Developer Course with Hands-On Projects",
+    issuer: "Udemy",
+    instructor: "YouAccel Training, Blue Digital Media",
+    date: "March 2026",
+    image: "/images/react-complete-developer.jpg",
+    credentialUrl: "https://drive.google.com/file/d/1TAfO8aGLIe4jBRBpYm8Aq-I1whXvzo-j/view?usp=sharing"
+  },
+    {
+    title: "Java Masterclass: The Complete Guide",
+    issuer: "Udemy",
+    instructor: "Aniket Jain",
+    date: "March 2026",
+    image: "/images/java-masterclass.jpg",
+    credentialUrl: "https://drive.google.com/file/d/1UOUMqw-onFx9p-ZH4Yy6F-q3hx8aXAt0/view?usp=sharing"
+  },
+    {
+    title: "Certificate of Participation - PlymHack 2026",
+    issuer: "Hackathon Hub, NSBM Green University Town & University of Plymouth",
+    instructor: "Anton Jayakody, Mandinu Balasooriya, Seniru Dilmith",
+    date: "March 2026",
+    image: "/images/plymhack-participation.jpg",
+    credentialUrl: "https://drive.google.com/file/d/1y-WNphaKcSBHMk3laZSkipVLKmj6wgi6/view?usp=sharing"
+  },
+    {
+    title: "Certificate of Participation - OctWave 2.0",
+    issuer: "IEEE IAS Student Branch Chapter of the University of Moratuwa",
+    instructor: "Sahan Dilip, Dr. Manuja Gunawardhana, Renulucshmi Prakasan",
+    date: "October 2025", // As this is OctWave 2.0, assuming October based on your previous timeline
+    image: "/images/octwave-participation.jpg",
+    credentialUrl: "https://drive.google.com/file/d/16MhKqw8CKLKPkCxl6uPreJIr84Fquxsc/view?usp=sharing"
+  },
+    {
+    title: "Certificate of Volunteering - Open Squid 2025",
+    issuer: "NSBM FOSS Community & Women in FOSS",
+    instructor: "Savindu Dhamsara, Nimesha Hewawasam",
+    date: "August 2025",
+    image: "/images/open-squid-volunteering.jpg",
+    credentialUrl: "https://drive.google.com/file/d/1Wae3RB9RQ9G-hXLKoctpu3xoKjXSj1Ik/view?usp=sharing"
+  },
  
 ];
