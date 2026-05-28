@@ -150,9 +150,10 @@ export const CERTIFICATES: Certificate[] = [
     {
     title: "Java Training Crash Course for Java Beginners",
     issuer: "Udemy",
+    instructor: "Crunch Coding",
     date: "April 2025",
-    image: "/images/java-crash-course.jpg", 
+    image: "/images/java-crash-course.jpg",
     credentialUrl: "https://drive.google.com/file/d/1ymQM261fmrLvEZ8WScxNfLoDf-uBj7XL/view?usp=sharing"
-},
+  },
  
 ];
