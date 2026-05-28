@@ -136,7 +136,7 @@ export const CERTIFICATES: Certificate[] = [
     issuer: "Udemy",
     instructor: "Sara Academy",
     date: "Dec 2025",
-    image: "/images/sql-bootcamp.png", // public/images එකට දාපු පින්තූරයේ නම
+    image: "/images/sql-bootcamp.png", 
     credentialUrl: "https://drive.google.com/file/d/1CdNmcP3JA5GvT4xBqIxBTQ5HUw0CfOh2/view?usp=sharing"
   },
   {
@@ -144,8 +144,15 @@ export const CERTIFICATES: Certificate[] = [
     issuer: "Udemy",
     instructor: "Kioomars Jonood, Samaneh Mazidi Sharaf Abadi",
     date: "Sept 2025",
-    image: "/images/csharp-mastering.png", // public/images එකට දාපු පින්තූරයේ නම
+    image: "/images/csharp-mastering.png", 
     credentialUrl: "https://drive.google.com/file/d/1-fbAyqSDyAzMUQO8jNnyLdso1RGAxp7M/view?usp=sharing"
   },
+    {
+    title: "Java Training Crash Course for Java Beginners",
+    issuer: "Udemy",
+    date: "April 2025",
+    image: "/images/java-crash-course.jpg", 
+    credentialUrl: "https://drive.google.com/file/d/1ymQM261fmrLvEZ8WScxNfLoDf-uBj7XL/view?usp=sharing"
+},
  
 ];
