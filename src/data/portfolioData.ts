@@ -200,7 +200,7 @@ export const CERTIFICATES: Certificate[] = [
     issuer: "NSBM FOSS Community & Women in FOSS",
     instructor: "Savindu Dhamsara, Nimesha Hewawasam",
     date: "August 2025",
-    image: "/images/open-squid-volunteering.jpg",
+    image: "/images/open-squid-volunteering.png",
     credentialUrl: "https://drive.google.com/file/d/1Wae3RB9RQ9G-hXLKoctpu3xoKjXSj1Ik/view?usp=sharing"
   },
  
