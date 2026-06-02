@@ -7,7 +7,7 @@ export const PERSONAL_DATA = {
     email: "dilshanwijerathna426@gmail.com",
     linkedin: "https://www.linkedin.com/in/dilshan-wijerathna",
     github: "https://github.com/Diliwije",
-    resumeLink: "https://drive.google.com/file/d/1CpMWtV9_ngIuR5tceoPZuFjufDqdbfD1/view?usp=sharing", // Add your actual resume link here
+    resumeLink: "https://drive.google.com/file/d/1jh_Z8_gZUbRNQQEEaEO-LedwhqtsFHsm/view?usp=sharing", // Add your actual resume link here
     profilePictureUrl: "/images/profile.jpg",
     university: "NSBM Green University",
     graduationDate: "December 2027",
